@@ -13,7 +13,7 @@ function App() {
 
   const search = e => {
     if (e.key === "Enter") {
-      fetch(`${URL_API}weather?q=${query}&units=metric&APPID=${REACT_APP_OPENWEATHER_API_KEY}`)
+      fetch(`${URL_API}weather?q=${query}&units=metric&appid=${REACT_APP_OPENWEATHER_API_KEY}`)
         .then(res => res.json())
         .then(result => {
           setWeather(result);
