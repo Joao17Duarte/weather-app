@@ -5,7 +5,7 @@ import { faBolt, faCloudRain, faCloudShowersHeavy, faSnowflake, faSun, faCloudSu
 
 
 const {REACT_APP_OPENWEATHER_API_KEY} = process.env
-const URL_API = "http://api.openweathermap.org/data/2.5/"
+const URL_API = "https://api.openweathermap.org/data/2.5/"
 function App() {
 
   const [query, setQuery] = useState('')
